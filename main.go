@@ -10,6 +10,7 @@ import (
 	"github.com/shopspring/decimal"
 )
 
+// main function
 func main() {
 	exec.Command("cd ui").Run()
 	exec.Command("npm run build")
